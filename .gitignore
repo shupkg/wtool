@@ -100,3 +100,5 @@ $RECYCLE.BIN/
 *.dll
 *.so
 *.dylib
+
+.idea/
