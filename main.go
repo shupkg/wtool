@@ -24,3 +24,8 @@ func main() {
 		}
 	}
 }
+
+func addToRoot(c *cobra.Command) {
+	c.Flags().BoolP("help", "h", false, "显示帮助信息")
+	root.AddCommand(c)
+}
