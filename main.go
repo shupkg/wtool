@@ -4,9 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shupkg/wproto/gen"
 	"github.com/spf13/cobra"
-	"google.golang.org/protobuf/compiler/protogen"
 )
 
 var root = &cobra.Command{Use: "wtool [command]"}
@@ -17,7 +15,7 @@ func main() {
 
 	stat, err := os.Stdin.Stat()
 	if len(os.Args) == 1 && err == nil && (stat.Mode()&os.ModeCharDevice) == 0 {
-		protogen.Options{}.Run(gen.Run)
+		runProtoc()
 	} else {
 		if err := root.Execute(); err != nil {
 			log.Fatal(err)

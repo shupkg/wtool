@@ -153,6 +153,14 @@ github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFR
 github.com/russross/blackfriday/v2 v2.0.1/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
 github.com/ryanuber/columnize v0.0.0-20160712163229-9b3edd62028f/go.mod h1:sm1tb6uqfes/u+d4ooFouqFdy9/2g9QGwK3SQygK0Ts=
 github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529/go.mod h1:DxrIzT+xaE7yg65j358z/aeFdxmN0P9QXhEzd20vsDc=
+github.com/shupkg/wbin v0.0.0-20201116133110-540207990a1a h1:eKSCMZWI/7JXMb7ohwi4uWwbqkpnrpVPdFaxm8d38mc=
+github.com/shupkg/wbin v0.0.0-20201116133110-540207990a1a/go.mod h1:JQjkc5aEd/1nOJzsyxxrmYuDC6afxUcR/D+2thkSj/c=
+github.com/shupkg/wbin v0.0.0-20201204032933-c282d40e43fa h1:Hh1tRXqEJLAFH5bF29dfs4krn9NreP3YwDWNFjdM4Yg=
+github.com/shupkg/wbin v0.0.0-20201204032933-c282d40e43fa/go.mod h1:JQjkc5aEd/1nOJzsyxxrmYuDC6afxUcR/D+2thkSj/c=
+github.com/shupkg/wproto v0.0.0-20201204032017-8c47e2b30dfa h1:pmKPrSN2uF9lSVLpsYXs6JkdbcyqSJqcWqV96QSlQ3Q=
+github.com/shupkg/wproto v0.0.0-20201204032017-8c47e2b30dfa/go.mod h1:k6NPKiuu256V52MHQACcgJmOfuRya5zVjF51Aih5Dp4=
+github.com/shupkg/wproto v0.0.0-20201204033201-d21500ed57ce h1:uwpUpwla3pwJc94seC5tPk2U6iAkaBaP5d0+ZkbldEU=
+github.com/shupkg/wproto v0.0.0-20201204033201-d21500ed57ce/go.mod h1:scxGwm+yu6Kjr+AjlbJno4fi8Km9tFgmM2HWKvtfFbE=
 github.com/shurcooL/sanitized_anchor_name v1.0.0/go.mod h1:1NzhyTcUVG4SuEtjjoZeVRXNmyL/1OwPU0+IJeTBvfc=
 github.com/sirupsen/logrus v1.2.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
 github.com/smartystreets/assertions v0.0.0-20180927180507-b2de0cb4f26d/go.mod h1:OnSkiWE9lh6wB0YB77sQom3nweQdgAjqCqsofrRNTgc=

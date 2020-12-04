@@ -5,7 +5,9 @@ import (
 	"os"
 
 	"github.com/shupkg/wproto/cmd"
+	"github.com/shupkg/wproto/gen"
 	"github.com/spf13/cobra"
+	"google.golang.org/protobuf/compiler/protogen"
 )
 
 func init() {
@@ -19,4 +21,8 @@ func init() {
 		}
 	}
 	addToRoot(c)
+}
+
+func runProtoc(){
+	protogen.Options{}.Run(gen.Run)
 }
